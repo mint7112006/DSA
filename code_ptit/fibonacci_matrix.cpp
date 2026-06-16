@@ -2,7 +2,7 @@
 using namespace std;
 const long long MOD = 1e9 + 7;
 struct matrix{
-    int a[2][2];
+    long long a[2][2];
     // constructor
     matrix(){
         a[0][0] = 0;
@@ -54,6 +54,6 @@ int main(){
     while(t--){
         int n;
         cin>>n;
-        cout<<fibo(n);
+        cout<<fibo(n)<<endl;
     }
 }
